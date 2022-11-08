@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card.png",
-        "test": "..\\bitmaps_test\\20221108-163853\\Card_with_data-qa_card.png",
+        "test": "..\\bitmaps_test\\20221108-200150\\Card_with_data-qa_card.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card.png",
         "label": "Card with data-qa_card",
@@ -15,22 +15,21 @@ report({
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -46
+            "height": 0
           },
-          "misMatchPercentage": "26.82",
-          "analysisTime": 44
-        },
-        "diffImage": "..\\bitmaps_test\\20221108-163853\\failed_diff_Card_with_data-qa_card.png"
+          "misMatchPercentage": "0.26",
+          "analysisTime": 31
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover.png",
-        "test": "..\\bitmaps_test\\20221108-163853\\Link_with_data-qa_hover.png",
+        "test": "..\\bitmaps_test\\20221108-200150\\Link_with_data-qa_hover.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Link_with_data-qa_hover.png",
         "label": "Link with data-qa_hover",
@@ -41,17 +40,16 @@ report({
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -46
+            "height": 0
           },
-          "misMatchPercentage": "18.89",
-          "analysisTime": 43
-        },
-        "diffImage": "..\\bitmaps_test\\20221108-163853\\failed_diff_Link_with_data-qa_hover.png"
+          "misMatchPercentage": "0.26",
+          "analysisTime": 28
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ]
 });
